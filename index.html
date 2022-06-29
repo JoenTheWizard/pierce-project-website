@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<title>The PIERCE project</title>
+<!-- Link CSS files -->
+<link rel="stylesheet" href="styles.css"></link>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+
+<body>
+
+<!-- Create menu bar for the menu button -->
+<div class="menubar" id="menubarID">
+<p style="font-size:28px;text-align:center;"><u>MENU</u></p>
+<button onclick="closeMenubar()" id="closeMenu">×</button>
+<a id="menuItem" href="#home">Home</a>
+<hr id="menuSplitter">
+<a id="menuItem" href="#textbox">About</a>
+	<hr id="menuSplitter">
+<div id="menuFooter"></div>
+</div>
+
+<ul id="home">
+  <li id="lst-nav"><a onclick="openMenubar()" href="#home" title="Open menu">☰</a></li>
+  <li id="lst-nav"><a href="#home" title="Go to home">Home</a></li>
+  <li id="lst-nav"><a href="#textbox" title="Go to about section">About</a></li>
+	<p id="edoSZ-font" style="float:right;padding-right:15px;">THE PIERCE PROJECT</p>
+</ul>
+
+<div class="header">
+	<p id="createdby">Logo by <a href="http://twitter.com/Piss_Couch">@Piss_Couch</a></p>
+</div>
+
+<!-- Main content -->
+<div id="textbox">
+<h1 style="text-align:center;color:white;">PIERCE PROJECT</h1>
+<hr id="textboxSplitter">
+<p>
+	The <span style="font-family:edoSZ;">PIERCE</span> project is a multifunctional penetration testing tool designed to accomplish all types of tasks. From bruteforcing, network sniffing, Tor browsing or even game hacking, <span style="font-family:edoSZ;">PIERCE</span> tries to accomplish all certain types of tasks 
+</p>
+<p>
+	It attempts to replicate the famous Kali Linux and Parrot OS, but as a singular tool. It's created in C# WPF, and because of this it means it only supports Windows.
+</p>
+<img title="PIERCE main screen" id="textboximg" src="imgs/pierce-main.png">
+<p>
+	The <span style="font-family:edoSZ;">PIERCE</span> project is still under development. But still a lot of features have been added throughout the project, and still many more to come. The image shown here shows how the <em>main</em> interface currently looks like as of now. A very much user-friendly interface along side with a terminal at the bottom to execute certain tasks with its own command system.
+</p>
+<p style="margin-top:5%;">
+	Check out some of the other projects too like:<br>
+	<a style="color:white;" href="https://joenthewizard.github.io/mvcmd-project">The "mVCMD" project</a>
+</p>
+</div>
+
+</body>
+
+<script src="script.js"></script>
+</html>
