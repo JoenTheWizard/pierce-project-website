@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<title>The PIERCE project</title>
+<head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
+	<meta property="og:title" content="The PIERCE project"/>	
+	<meta name="description" content="The PIERCE project, a multifunction pentesting tool"/>
+</head>
+<!-- Link CSS files -->
+<link rel="stylesheet" href="styles.css"></link>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+
+<body>
+
+<!-- Create menu bar for the menu button -->
+<div class="menubar" id="menubarID">
+<p style="font-size:28px;text-align:center;"><u>MENU</u></p>
+<button onclick="closeMenubar()" id="closeMenu">×</button>
+<a id="menuItem" href="#home">Home</a>
+<hr id="menuSplitter">
+<a id="menuItem" href="#about">About</a>
+	<hr id="menuSplitter">
+<a id="menuItem" href="#current-features">Features</a>
+	<hr id="menuSplitter">
+<div id="menuFooter"></div>
+</div>
+
+<ul id="home">
+  <li id="lst-nav"><a onclick="openMenubar()" href="#home" title="Open menu">☰</a></li>
+  <li id="lst-nav"><a href="#home" title="Go to home">Home</a></li>
+  <li id="lst-nav"><a href="#about" title="Go to about section">About</a></li>
+  <li id="lst-nav"><a href="#current-features" title="Go to current features section">Features</a></li>
+	<p id="edoSZ-font" style="float:right;padding-right:15px;">THE PIERCE PROJECT</p>
+</ul>
+
+<div class="header">
+	<p id="createdby">Logo by <a href="http://twitter.com/Piss_Couch" target="_blank">@Piss_Couch</a></p>
+</div>
+
+<!-- Main content -->
+<div id="textbox">
+<div id="textboxsection">
+<h1 id="about">PIERCE PROJECT</h1>
+<hr style="margin-left:100%;margin-right:100%">
+<p>
+	The <span style="font-family:edoSZ;">PIERCE</span> project is an open-source multifunctional penetration testing tool designed to accomplish all types of tasks. From bruteforcing, network sniffing, Tor browsing or even game hacking, <span style="font-family:edoSZ;">PIERCE</span> tries to accomplish all certain types of tasks 
+</p>
+<p>
+	It attempts to replicate the famous Kali Linux and Parrot OS, but as a singular tool. It's created in C# WPF, and because of this it means it only supports Windows.
+</p>
+<img title="PIERCE main screen" id="textboximg" src="imgs/pierce-main.png">
+<p>
+	The <span style="font-family:edoSZ;">PIERCE</span> project is still under development. But still a lot of features have been added throughout the project, and still many more to come.
+</p>
+<p>
+	The image shown here shows how the <em>main</em> interface currently looks like as of now. A very much user-friendly interface along side with a terminal at the bottom to execute certain tasks with its own command system.
+</p>
+</div>
+
+<div id="textboxsection" style="margin-top: 150px;margin-bottom:150px;">
+<h1 id="current-features" style="margin-top:100px;">CURRENT FEATURES</h1>
+<hr style="margin-left:100%;margin-right:100%">
+
+<p>
+	There are a lot of features currently added within the <span id="edoSZ-font">PIERCE</span> project. There are going to be plans to add more features as the project is unfinished. Plus making this project open-source for people to learn, understand and modify <span id="edoSZ-font">PIERCE</span> to however they please.
+</p>
+<p>
+	Because there are quite a bit of features, here are <em>some</em> of the main and bigger features within <span id="edoSZ-font">PIERCE</span> showcased here in the following images below.
+</p>
+<img title="PIERCE main screen listing commands with 'help'" class="textboxshowcase" src="imgs/showcase/pierce-1.PNG">
+<img title="PIERCE main screen listing commands with 'help'" class="textboxshowcase" src="imgs/showcase/pierce-2.PNG">
+<img title="PIERCE main screen listing commands with 'help'" class="textboxshowcase" src="imgs/showcase/pierce-3.PNG">
+<img title="PIERCE main screen listing commands with 'help'" class="textboxshowcase" src="imgs/showcase/pierce-4.PNG">
+
+</div>
+
+<p style="margin-top:5%;">
+	Check out some of the other projects too like:<br>
+	<a style="color:white;" href="https://joenthewizard.github.io/mvcmd-project" target="_blank">The "mVCMD" project</a>
+</p>
+
+</div>
+
+</body>
+
+<script src="script.js"></script>
+</html>
